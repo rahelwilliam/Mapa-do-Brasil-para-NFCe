@@ -37,7 +37,10 @@ A ideia deste projeto, além de demonstrar a utilização do código e a criaç�
 
 ###### Ultima atualização em 16 de Julho de 2018
 
+## Fonte 
+O Mapa original foi tirado do Link: https://codepen.io/fabiogoodoy/pen/wgipx
+
 *** 
 
-// "author": "Rahel William"
-//  "license": "ISC"
+###### author "Rahel William"
+###### license "ISC"
