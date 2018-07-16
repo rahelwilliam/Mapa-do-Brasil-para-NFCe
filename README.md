@@ -2,7 +2,7 @@
 Este projeto tem o intuito na criação de um mapa do Brasil feito com CSS, JS e SVG. Também orientar nas obrigatoriedades estaduas sobre o uso da NFC-e nos estados brasileiros.
 
 ## Demo
-Caso necessário, é possível acessar um DEMO do projeto, em: https://codepen.io/rahelwilliam/pen/PBNGpL
+Caso necessário, [clique aqui e acesso o DEMO do projeto](https://codepen.io/rahelwilliam/pen/PBNGpL).
 
 ## O que é preciso para implementar?
 Para implementar o código é necessário apenas os seguintes passos:
@@ -53,7 +53,7 @@ A ideia deste projeto, além de demonstrar a utilização do código e a criaç�
 ###### Ultima atualização em 16 de Julho de 2018
 
 ## Fonte 
-O Mapa original foi tirado do Link: https://codepen.io/fabiogoodoy/pen/wgipx
+O Mapa original foi tirado de: [Mapa Modelo do Brasil](https://codepen.io/fabiogoodoy/pen/wgipx).
 
 *** 
 
