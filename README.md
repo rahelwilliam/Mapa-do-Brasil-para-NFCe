@@ -1,6 +1,9 @@
 # Mapa do Brasil para emissão de NFC-e
 Este projeto tem o intuito na criação de um mapa do Brasil feito com CSS, JS e SVG. Também orientar nas obrigatoriedades estaduas sobre o uso da NFC-e nos estados brasileiros.
 
+## Demo
+Caso necessário, é possível acessar um DEMO do projeto, em: https://codepen.io/rahelwilliam/pen/PBNGpL
+
 ## O que é preciso para implementar?
 Para implementar o código é necessário apenas os seguintes passos:
 
@@ -16,14 +19,26 @@ Os comandos usados para executar essa função serão o `.length`, `.text`, `.at
 Caso você já seja experiente e queira simplesmente utilizar a função sem seguir o passo a passo, poderá utilizar o script:
 
 ```
-function highlight_map_states(){
-  if($(".states_section").length>0){
-    $(".states_section .list_states .item .link").hover(function(){
-      var a="#state_"+$(this).text().toLowerCase();
-      $(a).attr("class","state hover")
-    },function(){
-      var a="#state_"+$(this).text().toLowerCase();
-      $(a).attr("class","state")
+function highlight_map_states() {
+  // iniciando o teste, caso a div com classe "states_section" exista, deverá executar
+  if ($(".states_section").length > 0) { 
+    
+    // iniciando o envento sempre que os links de cada estado estiverem em "hover"
+    $(".states_section .list_states .item .link").hover(function () { 
+      
+      // pegamos o nome do estado, tratando o texto do link e montamos o id da div
+      var a = "#state_" + $(this).text().toLowerCase(); 
+      // adicionamos à esta div que pegamos anteriormente a classe .state e .hover
+      $(a).addClass("state hover") 
+    
+    // Em seguida, indicamos a função exercida sempre que o evento "hover" não existir (ou seja, é ativada quando o mouse não está mais sobre o link do estado)
+    }, function () {
+      
+      // pegamos o nome do etadado novamente para montar o id da div
+      var a = "#state_" + $(this).text().toLowerCase();
+      // removemos a classe Hover
+      $(a).removeClass("hover"); 
+
     })
   }
 };
