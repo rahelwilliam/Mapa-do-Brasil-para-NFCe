@@ -50,12 +50,11 @@ Conforme citado acima, este é um projeto de criação do mapa do Brasil, neste 
 ## Atualização
 A ideia deste projeto, além de demonstrar a utilização do código e a criação do Mapa do Brasil, também deverá auxiliar na orientação sobre a emissão de NFC-e, por isso, estarei atualizando o projeto sempre que possível. 
 
-###### Ultima atualização em 16 de Julho de 2018
+###### Última atualização em 16 de Julho de 2018
 
 ## Fonte 
 O Mapa original foi tirado de: [Mapa Modelo do Brasil](https://codepen.io/fabiogoodoy/pen/wgipx).
 
 *** 
 
-###### author "Rahel William"
-###### license "ISC"
+###### author "Rahel William" // license "ISC"
