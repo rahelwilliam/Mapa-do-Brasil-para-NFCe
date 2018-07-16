@@ -1,3 +1,8 @@
+/* 
+Mapa original: https://codepen.io/fabiogoodoy/pen/wgipx 
+Modificado por: Rahel William
+*/
+
 function highlight_map_states() {
   // iniciando o teste, caso a div com classe "states_section" exista, deverá executar
   if ($(".states_section").length > 0) { 
